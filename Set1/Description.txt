@@ -1,0 +1,22 @@
+TASK 1:
+Input is random string, lowercased and made only of letters. Return should be letters of that 
+string from most common to most rare ones. If we get letters with same number of 
+occurrences, the alphabetical order decides which goes first. In other words the earlier in 
+alphabet is the letter, the earlier it’s going to be placed in return string. But it only applies 
+within same group of occurrences. Still over all rule is that parent rule is the counter for 
+occurrence as asked in the content of task 1.
+
+TASK 2:
+Task based on parent-child tree architecture in SQL. It’s hierarchical data based on socalled: 
+“parent and child relation in database”. The idea is that we got 2 IDs in one table; primary 
+key and ID which replicates primary key. Than I have written 2 queries. 1st one combines 
+those 2 tabels into one without redundant records as asked in the content of task 2. 2
+nd one 
+counts people which uses same MAC address.
+
+TASK 3:
+Bonus task was to write unit test to code written in task1. First I have figured out some weird 
+and characteristic cases. Which by the way helped me two times to improve code in task 1, 
+so I was forced to rewrite task 1 at least 2 times to meet the requirements of the instruction. 
+Secondly I checked code for raising errors for some possible wrong input into function in 
+task1. All tests smoothly passed.
